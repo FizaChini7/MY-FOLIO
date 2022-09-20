@@ -1,0 +1,198 @@
+
+
+
+@media (min-width:1200px) and (max-width:1399.98px){
+    #contact .section-heading .sizzing {
+        padding: 0 20px;
+    }
+    .work_items .overly h3 {
+        font-size: 16px;
+        padding-top: 18px;
+    }
+    .work_items .overly p {
+        padding-top: 13px;
+        font-size: 13px;
+    }
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    .work_items .overly p {
+        font-size: 11px;
+        padding-top: 2px;
+    }
+    .work_items .overly h3 {
+        
+        font-size: 15px;
+        padding-top: 0px;
+    }
+    #contact .section-heading .sizzing {
+        padding: 0 9px;
+    }
+    #work {
+        padding: 90px 0 0 0;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+
+    #myNav ul li a {
+        padding: 21px 15px;
+    }
+    #banner .carousel-item {
+        height: 570px;
+    }
+    #banner .carousel-caption h4 {
+        font-size: 22px;
+    }
+    #banner .carousel-caption h1 {
+        font-size: 54px;
+        letter-spacing: 2px;
+    }
+    #banner .carousel-caption p {
+        font-size: 18px;
+    }
+    .about-border {
+        border: none;
+    }
+    #work .section-heading .sizzing1 {
+        padding: 0 60px;
+    }
+    #about .section-heading p span{
+        font-weight: 400;
+        font-size: 16px;
+     }
+     #services .section-heading p {
+        line-height: 33px;
+        margin-bottom: 70px;
+    }
+
+    
+}
+@media (min-width:576px) and (max-width:767.98px){
+    #banner .carousel-item {
+        height: 400px;
+    }
+    #banner .carousel-caption h1 {
+        font-size: 58px;
+        letter-spacing: normal;
+    }
+    #banner .carousel-caption p {
+        font-size: 17px;
+        padding: 10px 0 100px 0;
+    }
+    #banner .carousel-caption h4 {
+        font-size: 20px;
+    }
+    #contact .section-heading .sizzing {
+        padding: 0 21px;
+    }
+    #contact .section-heading p {
+        line-height: 32px;
+    }
+    #work {
+        padding: 80px 0 73px 0;
+    }
+    .work_items .overly p {
+        color: #ffffff;
+        padding-top: 12px;
+        font-size: 13px;
+    }
+    .work_items .overly h3 {
+        padding-top: 0px;
+    }
+    #work .section-heading p {
+        line-height: 32px;
+        padding-bottom: 0px;
+    }
+    .about_items {
+        padding: 19px 10px;
+    }
+    #about {
+        padding: 90px 0 75px 0;
+    }
+    #services .section-heading p {
+        line-height: 30px;
+        margin-bottom: 55px;
+    }
+    #contact {
+        padding: 7px 0 9px 0;
+    }
+}
+
+@media (max-width:767.98px){
+    .mainmenu{
+        padding: 10px 0;
+    }
+    #myNav ul li a {
+        padding: 11px 0px;
+    }
+    #myNav ul{
+        margin-top: 10px;
+    }
+    .carousel-caption img{
+        display: none;
+    }
+    .carousel-caption h5{
+        display: none;
+    }
+    #banner .carousel-caption{
+        top: 0%;
+     }
+     #about .section-heading p span{
+        font-weight: 400;
+        font-size: 16px;
+     }
+     .about_items {
+        padding: 23px 10px;
+    }
+    .about-border {
+        border: none;
+    }
+}
+@media (max-width:575.98px){
+    #banner .carousel-item {
+        height: 300px;
+    }
+    #banner .carousel-caption h1 {
+        font-size: 30px;
+        letter-spacing: normal;
+    }
+    #banner .carousel-caption h4 {
+        font-size: 14px;
+    }
+    #banner .carousel-caption p {
+        font-size: 10px; 
+        padding: 10px 0 100px 0;
+    }
+    #contact .section-heading h2 {
+        font-size: 43px;
+    }
+    #contact .section-heading .sizzing {
+        padding: 0 20px;
+    }
+    #contact .section-heading p {
+        line-height: 31px;
+        margin-bottom: 35px;
+    }
+    #work {
+        padding: 67px 0 54px 0;
+    }
+    #work .section-heading p {
+        line-height: 30px;
+        padding-bottom: 9px;
+    }
+    .section-heading p {
+        margin-bottom: 57px;
+    }
+    #about{
+        padding: 67px 0 60px 0;
+    }
+    #services .section-heading p {
+        line-height: 32px;
+        margin-bottom: 40px;
+    }
+    .work_items .overly h3 {
+        padding-top: 0px;
+    }
+    #contact {
+        padding: 10px 0 30px 0;
+    }
+}

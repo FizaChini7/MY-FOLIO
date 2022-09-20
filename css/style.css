@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #02918c;
+}
+h3{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+
+.section-heading p span{
+    font-weight: 800;
+    font-size: 23px;
+}
+
+/*main menu css*/
+.mainmenu{
+ background: #02918c;
+ padding: 0;
+ position: sticky;
+ top: 0;
+ z-index: 999;
+}
+
+#myNav ul li a{
+ font-weight: 800;
+ color: #fff;
+ text-transform: uppercase;
+ font-size: 12px;
+ padding: 21px 21px;
+}
+#myNav ul li .active{
+    color: #cfc91d;
+}
+
+/*banner css*/
+#banner{
+    position: relative;
+}
+#banner .carousel-inner:after{
+    content:'';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .6);
+
+}
+#banner .carousel-item{
+  height: 700px;
+  background-size: cover !important;
+  background-position: center !important;
+  
+}
+
+#banner .carousel-caption{
+    bottom: 50%;
+    transform: translateY(50%);
+    z-index: 1;
+}
+#banner .carousel-caption h1{
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+}
+#banner .carousel-caption h4{
+    font-size: 30px;
+    font-weight: 800;
+    color: #ffffff;
+    
+}
+#banner .carousel-caption p{
+    font-size: 18px;
+    font-weight: 800;
+    color: #ffffff;
+   
+}
+#banner .carousel-caption img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#banner .carousel-caption h5 a{
+   color: #0b1016;
+   font-weight: 800;
+   font-size: 16px;
+   background: #cfc91d;
+   padding: 14px 50px;
+}
+
+/*about part css*/
+#about{
+    padding: 90px 0 100px 0;
+}
+.section-heading img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section-heading p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 70px;
+}
+#about .section-heading p{
+    padding: 0 18px;
+}
+
+
+.about-border{
+    border-right: 1px solid #ddd;
+}
+.about-border-last{
+    border-right: none;
+}
+
+.about_items{
+    padding: 40px 10px;
+}
+.about_items i{
+    color: #02918c;
+    font-size: 32px;
+}
+.about_items h3{
+    padding: 30px 0;
+}
+.about_items p{
+    padding: 0 5px;
+}
+/*services part css*/
+#services{
+    padding: 60px 0;
+    background: url(../images/services_background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+#services .section-heading p{
+    line-height: 40px;
+}
+
+.services_item i{
+    color: #02918c;
+    font-size: 32px;
+    padding-top: 30px;
+}
+.services_item h3{
+    padding: 15px 0 20px 0;
+}
+.services_item p{
+    padding-right: 30px;
+}
+
+/*my work part css*/
+#work{
+    padding: 90px 0 5px 0;
+}
+
+#work .section-heading p{
+  line-height: 40px;
+  padding-bottom: 10px;
+}
+
+.work_items{
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.work_items img{
+  width: 100%;
+  transition: .5s;
+}
+.work_items:hover img{
+   transform: scale(1.2);
+}
+.work_items .overly{
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    top: 25px;
+    bottom: 25px;
+    background-color: rgba(2, 145, 140, .8);
+    transition: .5s;
+    cursor: pointer;
+    transform: scaleY(0);
+    padding: 30px 30px;
+}
+.work_items:hover .overly{
+ transform: scaleY(1);
+}
+
+.work_items .overly h3{
+    color: #ffffff;
+    font-size: 16px;
+    padding-top: 30px;
+}
+
+.work_items .overly p{
+    color: #ffffff;
+    padding-top: 16px;
+}
+#work .section-heading .sizzing1{
+    padding: 0 20px;
+}
+
+/*contact part css*/
+#contact{
+    padding: 90px 0 30px 0;
+}
+#contact .section-heading p{
+    line-height: 40px;
+    padding-bottom: 10px;
+}
+#contact .section-heading .sizzing{
+    padding: 0 60px;
+}
+
+/*form part*/
+#contact_form{
+    padding: 60px 0;
+    background: #0b0b0b;
+}
+
+#contact_form .form-control{
+background: transparent;
+height: 50px;
+text-align: center;
+border: none;
+border-bottom: 1px solid #7e8287;
+margin-bottom: 60px;
+border-radius: 0;
+color: #fff;
+}
+#contact_form .form-control:focus{
+    box-shadow: none;
+}
+
+#contact_form textarea {
+resize: none;
+border-top: 1px solid #7e8287 !important;
+height: 130px !important;
+}
+
+#contact_form label{
+    display: block;
+    text-align: center;
+    color: #7e8287;
+    padding-bottom: 16px;
+    padding-top: 10px;
+}
+
+#contact_form .button-submit button{
+    color: #0b1016;
+   font-weight: 800;
+   font-size: 16px;
+   background: #cfc91d;
+   padding: 10px 63px;
+   border-radius: 0;
+   letter-spacing: 5px;
+}
+
+/*end part css*/
+#end{
+    background: #000000;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/*backtop css*/
+.backtop{
+    position: fixed;
+    text-align: center;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    font-family: sans-serif;
+    background-color: #02918c;
+    color: #fff; 
+    border-radius: 50%;
+    cursor: pointer;
+    right: 25px;
+    bottom: 25px;
+    box-shadow: 0 0 10px #02918c;
+    z-index: 99;
+    display: none;
+}  
